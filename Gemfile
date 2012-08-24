@@ -6,6 +6,8 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
+	gem 'mysql2'
+	gem 'activerecord-mysql2-adapter'
 	gem 'sqlite3', '1.3.5'
 end
 
